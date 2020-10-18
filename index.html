@@ -1,14 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grocery Docs</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="https://cdn1.iconfinder.com/data/icons/shopping-and-commerce-2-9/134/197-512.png">
+  <script src="https://kit.fontawesome.com/aaaa8ecc71.js" crossorigin="anonymous"></script>
+  <title>Grocery Docs</title>
 </head>
 <body>
-    <h1>Grocery Docs</h1>
-    <ul id="todo-list"></ul>
-
-	<script src="script.js"></script>
-</body>
+  <div class="main">
+    <h1 class="head">GroceryDocs</h1>
+    <div class="storeName">
+      <h3>Walmart</h3>
+      <i class="fas fa-caret-down"></i>
+    </div>
+    <div class="list">
+      <ul class="items">
+        <li>
+          <input type="checkbox" id="item1">
+          <label for="item1">
+            <span class="check"></span>
+            Apples
+          </label>
+          <i class="fas fa-minus"></i>
+        </li>
+        <li>
+          <input type="checkbox" id="item2">
+          <label for="item2">
+            <span class="check"></span>
+            Oranges
+          </label>
+          <i class="fas fa-minus"></i>
+        </li>
+        <li>
+          <input type="checkbox" id="item3">
+          <label for="item3">
+            <span class="check"></span>
+            Pasta
+          </label>
+          <i class="fas fa-minus"></i>
+        </li>
+        <li>
+          <input type="checkbox" id="item4">
+          <label for="item4">
+            <span class="check"></span>
+            Carrots
+          </label>
+          <i class="fas fa-minus"></i>
+        </li>
+      </ul>
+      <form class="add">
+        <div class="input-buttons">
+          <a href="#0" class="addItems">
+            <i class="fas fa-plus-square"></i>
+          </a>
+        </div>
+        <input type="text" name="add" placeholder="Add items to your Grocery List">
+      </form>
+    </div>
+  </div>
+  </body>
+  <script src="script.js"></script>
 </html>

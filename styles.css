@@ -1,9 +1,67 @@
+
+html{
+  height: 100%;
+}
+
+.list {
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+/* removes the bullet points from the list */
+.list ul {
+  list-style: none;
+}
+
 i:hover {
  color: red;
  cursor: pointer;
 }
 
-.main h1 {
-  font-family: 'Montserrat', sans-serif;
+.main{
   text-align: center;
 }
+
+.storeName h3 {
+  display: inline-block;
+}
+
+.list ul {
+  text-align: center;
+  list-style-position: inside;
+
+}
+
+.main h1 {
+  padding-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+.main h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300 ;
+}
+
+.input-buttons {
+  display: inline-block;
+  padding: 10px;
+  
+}
+
+.input-buttons i {
+  font-size: 30px;
+}
+
+input[type=text] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid grey;
+}
+
+input[type=text]:focus{
+  background-color: #F0EEEE;
+}
+

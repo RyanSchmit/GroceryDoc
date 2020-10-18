@@ -2,3 +2,8 @@ i:hover {
  color: red;
  cursor: pointer;
 }
+
+.main h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
